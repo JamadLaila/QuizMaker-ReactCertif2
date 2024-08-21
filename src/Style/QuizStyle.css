@@ -1,0 +1,123 @@
+/* Styles pour le titre */
+.title {
+    text-align: center;
+    margin-bottom: 20px; /* Espacement sous le titre */
+  }
+  
+  /* Styles pour les boutons dans le conteneur de résultats */
+  .results-container .btn-submit {
+    display: block;
+    margin: 20px auto; /* Centre horizontalement et ajoute un espacement vertical */
+  }
+  
+  /* Styles pour le conteneur des boutons de réponse */
+  .answer-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si nécessaire */
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 10px; /* Espacement entre les boutons */
+    margin-top: 10px; /* Espacement au-dessus des boutons */
+  }
+  
+  /* Styles pour le conteneur principal des questions */
+  .question-container {
+    text-align: center; /* Centre le texte dans le conteneur */
+    margin-bottom: 20px; /* Espacement sous chaque question */
+    padding: 10px;
+    background-color: #fff; /* Couleur de fond pour mieux voir */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  /* Styles pour le conteneur du quiz */
+  .parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu horizontalement */
+    justify-content: center; /* Centre le contenu verticalement */
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f9f9f9; /* Couleur de fond pour le quiz */
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 20px; /* Espacement sous le titre */
+  }
+  
+  /* Styles pour les boutons de réponse */
+  .answer-btn {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styles pour les différentes classes de boutons */
+  .btn-success {
+    background-color: green;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    color: white;
+  }
+  
+  .btn-outline-success {
+    background-color: transparent;
+    border-color: green;
+    color: green;
+  }
+  
+  /* Styles pour le score */
+  .score {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  /* Styles pour le bouton de soumission */
+  .btn-submit {
+    padding: 10px 20px;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-size: 15px; /* Taille de police plus petite */
+    border-radius: 5px; /* Coins arrondis */
+    display: block; /* Pour être sûr que le bouton est un bloc */
+    margin: 20px auto; /* Centre horizontalement et ajoute un espacement vertical */
+  }
+  
+  .h4{
+      text-align: center;
+      margin-bottom: 20px; /* Espacement sous le titre */
+  }
+  
+  .results-title {
+    text-align: center;
+    margin-bottom: 20px; /* Ajoutez un espace sous le titre */
+  }
+  
+  .form-group {
+    text-align: center;
+    margin-bottom: 20px; /* Ajoutez un espace sous le titre */
+  }
+  
+  .dropdown {
+      width: 200px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+  }
+  
+  .btn-sub {
+      width: 100px;
+      padding: 5px;
+      border: 1px solid green;
+      background-color: white;
+      border-radius: 5px;
+      margin-right: 10px;
+   }
